@@ -1,5 +1,5 @@
 {
-	"name": "app2h/adminus-module",
+	"name": "app2h/nette-module-front",
 	"type": "app2h-module",
 	"license": "MIT",
 	"minimum-stability": "dev",
