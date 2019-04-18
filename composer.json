@@ -7,6 +7,9 @@
 	"config": {
 		"vendor-dir": "app/modules"
 	},
+	"require": {
+		"app2h/composer-installer": "dev-master"
+	},
 	"authors": [
 		{
 			"name": "2htech s.r.o.",
