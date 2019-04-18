@@ -1,0 +1,22 @@
+{
+	"name": "app2h/adminus-module",
+	"type": "app2h-module",
+	"license": "MIT",
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"config": {
+		"vendor-dir": "app/modules"
+	},
+	"authors": [
+		{
+			"name": "2htech s.r.o.",
+			"email": "info@2tech.cz"
+		}
+	],
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://packagist.org/"
+		}
+	]
+}

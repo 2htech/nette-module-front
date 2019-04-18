@@ -1,0 +1,10 @@
+parameters:
+	# Presentery.
+	homepage: Front:Homepage
+
+# Nastavení vlastních služeb dále přístupných pomocí DI v rámci CoreModule.
+services:
+	security.authorizator: # Nastavení zdrojů a pravidel přístupu k nim v rámci CoreModule pomocí statického ACL.
+		setup:
+			- addResource(%homepage%)
+			- allow(%guest%, %homepage%, 'default')
