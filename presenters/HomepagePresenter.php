@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\FrontModule\Presenters;
+namespace App2h\FrontModule\Presenters;
 
 
 final class HomepagePresenter extends BasePresenter
