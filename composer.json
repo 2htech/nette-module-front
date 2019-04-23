@@ -1,6 +1,6 @@
 {
-	"name": "app2h/nette-module-front",
-	"type": "app2h-module",
+	"name": "2htech/nette-module-front",
+	"type": "2htech-module",
 	"license": "MIT",
 	"minimum-stability": "dev",
 	"prefer-stable": true,
@@ -8,7 +8,7 @@
 		"vendor-dir": "app/modules"
 	},
 	"require": {
-		"app2h/composer-installer": "dev-master"
+		"2htech/composer-installer": "dev-master"
 	},
 	"authors": [
 		{
