@@ -1,6 +1,6 @@
 {
 	"name": "2htech/nette-module-front",
-	"type": "2htech-module",
+	"type": "nette-module",
 	"license": "MIT",
 	"minimum-stability": "dev",
 	"prefer-stable": true,
