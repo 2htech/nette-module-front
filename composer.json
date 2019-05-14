@@ -4,9 +4,6 @@
 	"license": "MIT",
 	"minimum-stability": "dev",
 	"prefer-stable": true,
-	"config": {
-		"vendor-dir": "app/modules"
-	},
 	"require": {
 		"2htech/composer-installer": "dev-master"
 	},
