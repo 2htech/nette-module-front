@@ -5,7 +5,6 @@
 	"minimum-stability": "dev",
 	"prefer-stable": true,
 	"require": {
-		"2htech/composer-installer": "dev-master",
 		"2htech/nette-module-core": "dev-master"
 	},
 	"authors": [
