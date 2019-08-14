@@ -7,11 +7,22 @@
 
 <div id="content">
 	<h2>Nový skvělý projekt na Nette Framework.</h2>
-
+	<div class="">
+		Uživatel je:
+        {if $user->isLoggedIn()} přihlášen {else} nepřihlášen {/if}
+	</div>
 	<ul>
 		<li>
-			<a n:href=":Core:Sign:default">Přihlásit se</a>
+			<a n:href=":Front:Sign:In">Přihlásit se</a>
 		</li>
+		<li>
+			<a n:href=":Front:Sign:Up">Zaregistrovat</a>
+		</li>
+        {if $user->isLoggedIn()}
+		<li>
+			<a n:href=":Admin:Dashboard:">Administrace</a>
+		</li>
+        {/if}
 		<li>
 			<a href="/adminer" target="_blank">adminer</a>
 		</li
